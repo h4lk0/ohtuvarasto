@@ -86,6 +86,6 @@ class TestVarasto(unittest.TestCase):
 
     def test_palauttaa_oikean_merkkijonon(self):
         self.varasto.lisaa_varastoon(4)
-        #tulos = str(self.varasto)
+        tulos = str(self.varasto)
 
         self.assertEqual(tulos, "saldo = 4, vielä tilaa 6")
